@@ -387,6 +387,7 @@ GROUP BY d.delivery_status;
 
 
 -- Review behavior: percentage of ratings submitted with empty comments
+
 SELECT 
     review_score,
     COUNT(review_id) AS total_reviews,
