@@ -267,6 +267,7 @@ ORDER BY top_payment_value DESC;
    ============================================================================ */
 
 -- Seller merchandise value concentration (Cumulative % of total platform volume)
+
 WITH SellerTotals AS (
     SELECT 
         seller_id,
