@@ -371,6 +371,7 @@ ORDER BY avg_delivery_days DESC;
 
 
 -- Review score degradation associated with late deliveries
+    
 WITH DeliveryStatus AS (
     SELECT 
         order_id,
