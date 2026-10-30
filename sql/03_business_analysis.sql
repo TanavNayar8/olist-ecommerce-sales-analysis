@@ -324,6 +324,7 @@ ORDER BY v.total_items_sold DESC;
 
 
 -- Seller late delivery rates
+
 WITH OrderDelivery AS (
     SELECT 
         o.order_id,
